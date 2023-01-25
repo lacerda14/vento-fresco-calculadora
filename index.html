@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Climatizador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>CALCULE AQUI A QUANTIDADE DE EQUIPAMENTOS NECESSÁRIA!</header>
+ 
+    <section>
+       <div id = 'logo'>
+        <img src="logaozi.png" alt="Logo" id="img">
+       </div>
+        <div>
+         
+            <p>Insira aqui a metragem quadrada do seu espaço: <input type="number" name="area" id="area"></p>
+            <p>Insira aqui o tipo de equipamento a ser usado: 
+                <input type="radio" name="radvent" id="clima" checked>
+                <label for="clima">Climatizador</label>
+                <input type="radio" name="radvent" id="vent">
+                <label for="vent">Ventilador</label>
+            </p>
+            <p>Insira aqui o número de dias de duração do seu evento: <input type="number" name="txtd" id="txtd">
+       </div>
+        <div id = 'butao'>
+            <input type="button" value="Calcular" id = 'calcular' onclick="calcular()">
+        </div>
+        <div id = res>
+
+            
+
+
+        </div>
+        <div id = 'obs'> 
+            
+        </div>
+        
+    </section>
+    <footer>
+        &copy; Pedro Mattos 2022
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
